@@ -1,7 +1,7 @@
 # Elm Weather App
 
-A modern weather application built with Elm and Webpack that securely handles API keys for weather data requests.
+A basic weather application built with Elm and Webpack that securely handles API keys for weather data requests.
 
 The deployed version of this project can be found at: 
 
-https://astro-elm-project.vercel.app/products
+https://weather-app-git-main-jose-guerreros-projects-e13ce748.vercel.app/
