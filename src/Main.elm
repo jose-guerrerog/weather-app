@@ -4,12 +4,7 @@ import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import Http
 import Json.Decode as Decode exposing (Decoder, field, string, float)
-import Json.Encode as Encode
-import Task
-import Time
-
 
 -- PORTS
 

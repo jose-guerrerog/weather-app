@@ -18,7 +18,10 @@ module.exports = {
         use: {
           loader: 'elm-webpack-loader',
           options: {
-            debug: process.env.NODE_ENV !== 'production'
+            // Remove debug option for production builds
+            debug: process.env.NODE_ENV !== 'production',
+            // Add optimize for production
+            optimize: process.env.NODE_ENV === 'production'
           }
         }
       },
@@ -33,7 +36,7 @@ module.exports = {
       template: './public/index.html'
     }),
     new Dotenv({
-      systemvars: true // Load all system environment variables as well
+      systemvars: true
     })
   ],
   devServer: {
